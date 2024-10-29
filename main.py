@@ -58,3 +58,4 @@ def get_result(score: int):
         return {"result": "Passed", "score": score, "total_points": total_possible_points}
     else:
         return {"result": "Failed", "score": score, "total_points": total_possible_points}
+    
